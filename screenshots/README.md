@@ -12,5 +12,6 @@ ready for App Store Connect.
 | 01-hero | Main screen, 180 SPM | Lock into your cadence |
 | 02-options | Customization pickers | Tune every beat to your run |
 | 03-feedback | Flash + Vibrate, volume | See it. Feel it. Even in the wind. |
+| 04-flash | Beat flash while running | Never lose the beat |
 
-Upload strongest-first: 01 → 02 → 03. Either set is App Store-valid.
+Upload strongest-first: 01 → 04 → 02 → 03. Either set is App Store-valid.
