@@ -111,9 +111,12 @@ Source: `AppStore-listing.md`, `app-review-notes.md`, `screenshots/`
 ---
 
 ## 8. Submit for Review
-- [ ] Confirm export-compliance (no non-exempt encryption → typically **No**)
-- [ ] **Add for Review** → **Submit**
+- [x] Confirm export-compliance (no non-exempt encryption → typically **No**)
+- [x] **Add for Review** → **Submit**  — ✅ v1.0 (build 1) submitted 2026-09-28
 - [ ] Status → *Waiting for Review* → *In Review* → *Ready for Sale*
+
+> Once approved, replace the "Coming soon" badge on `docs/index.html` with the
+> App Store link and consider adding the Marketing URL if not set.
 
 ---
 

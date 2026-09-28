@@ -44,8 +44,8 @@ Everything needed to publish lives in [`docs/`](docs/):
 - Privacy Policy — https://bikeusaland.github.io/MetroPacer/privacy.html
 
 ## Status
-Repo-side prep is complete. Remaining work is the Apple-account / GUI flow — archiving
-with a **released** Xcode and the App Store Connect steps in the submission guide.
+**v1.0 (build 1) submitted for App Review on 2026-09-28.** Waiting for review.
+Landing page: https://bikeusaland.github.io/MetroPacer/
 
 ## Privacy
 MetroPacer collects no data. All settings are stored locally on device; there is no
