@@ -39,6 +39,7 @@ Everything needed to publish lives in [`docs/`](docs/):
 | [screenshots/](screenshots/) | 6.9" iPhone screenshots (plain + captioned) |
 
 **Hosted pages** (GitHub Pages, served from `docs/`):
+- Landing page — https://bikeusaland.github.io/MetroPacer/
 - Support — https://bikeusaland.github.io/MetroPacer/support.html
 - Privacy Policy — https://bikeusaland.github.io/MetroPacer/privacy.html
 

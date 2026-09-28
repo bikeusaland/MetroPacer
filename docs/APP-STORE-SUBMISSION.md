@@ -12,6 +12,7 @@ files referenced at each step.
 | Platform | iOS 18+, iPhone only |
 | Support URL | https://bikeusaland.github.io/MetroPacer/support.html |
 | Privacy Policy URL | https://bikeusaland.github.io/MetroPacer/privacy.html |
+| Marketing URL (optional) | https://bikeusaland.github.io/MetroPacer/ |
 | Data collection | None → "Data Not Collected" |
 
 ---
@@ -78,6 +79,7 @@ Source: `AppStore-listing.md`, `app-review-notes.md`, `screenshots/`
 - [ ] **Description**
 - [ ] **Keywords**
 - [ ] **Support URL**: https://bikeusaland.github.io/MetroPacer/support.html
+- [ ] **Marketing URL** (optional): https://bikeusaland.github.io/MetroPacer/
 - [ ] **What's New** (v1.0 notes)
 - [ ] **App Review Information**: contact name/phone/email (metropacer@gmail.com);
       no demo account needed; paste the reviewer note from `app-review-notes.md`

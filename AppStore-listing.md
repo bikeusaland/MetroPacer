@@ -66,7 +66,7 @@ First release of MetroPacer. Set your running cadence and run to a steady beat t
 
 ## Other App Store Connect fields
 - **Support URL** — required. See `docs/support.html` in this repo (host it, e.g. on GitHub Pages).
-- **Marketing URL** — optional.
+- **Marketing URL** — optional. Landing page: https://bikeusaland.github.io/MetroPacer/
 - **Age rating** — 4+ (no objectionable content).
 - **App Privacy** — declare **"Data Not Collected"**. The app stores settings locally only and collects nothing.
 
