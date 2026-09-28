@@ -73,4 +73,4 @@ First release of MetroPacer. Set your running cadence and run to a steady beat t
 ## Pre-submission reminders
 1. Verify "plays over your music" works on a real device with Spotify/Podcasts playing — reviewers will test it.
 2. A reachable Support URL is required to submit.
-3. Submit the final build with a **released** Xcode, not the beta.
+3. Submit the final build with a **released** Xcode, not a beta. (Xcode 27.0 GM is fine.)

@@ -17,10 +17,9 @@ files referenced at each step.
 ---
 
 ## 0. Prerequisites
-- [ ] **Apple Developer Program** membership active on team `D5CC9YCM6F` ($99/yr) — https://developer.apple.com/account
-- [ ] **Released (non-beta) Xcode** installed. ⚠️ The Xcode 27 **beta** cannot submit
-      to the App Store — Apple rejects beta-built uploads. Use the released Xcode for
-      the final archive.
+- [ ] **Apple Developer Program** membership active on team `D5CC9YCM6F` ($99/yr) —  
+- [x] **Released (non-beta) Xcode** installed. Xcode 27.0 (27A266a) is a GM release
+      and uploads fine — verified 2026-09-28. Only a *beta*-labeled Xcode is rejected.
 - [ ] Signed in to https://appstoreconnect.apple.com with that team.
 
 ---
@@ -87,6 +86,16 @@ Source: `AppStore-listing.md`, `app-review-notes.md`, `screenshots/`
 ---
 
 ## 7. Archive & Upload the Build  (Xcode — released version)
+> ✅ Done 2026-09-28: build 1.0 (1) archived and uploaded via `xcodebuild` with automatic
+> signing, iPhone-only, MinimumOSVersion 18.0. Repeatable from the CLI:
+> ```
+> xcodebuild -project MetroPacer.xcodeproj -scheme MetroPacer -configuration Release \
+>   -destination 'generic/platform=iOS' -archivePath build/MetroPacer.xcarchive \
+>   -allowProvisioningUpdates archive
+> xcodebuild -exportArchive -archivePath build/MetroPacer.xcarchive \
+>   -exportOptionsPlist docs/ExportOptions.plist -exportPath build/export -allowProvisioningUpdates
+> ```
+> Bump `CURRENT_PROJECT_VERSION` before each re-upload — App Store Connect rejects duplicate build numbers.
 1. Open `MetroPacer.xcodeproj`.
 2. Target → **Signing & Capabilities**: team `D5CC9YCM6F`, Automatic signing.
 3. Toolbar device selector → **Any iOS Device (arm64)**.
