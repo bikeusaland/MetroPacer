@@ -44,7 +44,7 @@ Everything needed to publish lives in [`docs/`](docs/):
 - Privacy Policy — https://bikeusaland.github.io/MetroPacer/privacy.html
 
 ## Status
-**v1.0 (build 1) submitted for App Review on 2026-09-28.** Waiting for review.
+**v1.0 live on the App Store since 2026-10-07.** https://apps.apple.com/us/app/metropacer-run-cadence/id6791783261
 Landing page: https://bikeusaland.github.io/MetroPacer/
 
 ## Privacy
