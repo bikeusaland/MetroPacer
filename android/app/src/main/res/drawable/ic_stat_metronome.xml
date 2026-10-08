@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Status-bar icon: metronome outline with a swinging arm. -->
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="24dp"
+    android:height="24dp"
+    android:viewportWidth="24"
+    android:viewportHeight="24">
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="M9,2h6l5,20H4L9,2zM10.55,4h2.9l4,16H6.55l4,-16z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M11.1,17.6l5.6,-11.2l1.35,0.68l-5.6,11.2z" />
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:pathData="M6.5,17h11v1.6h-11z" />
+</vector>

@@ -30,3 +30,17 @@ fastlane/screenshots/**/*.png
 
 # Misc
 *.log
+
+# Android / Gradle
+android/.gradle/
+android/.kotlin/
+android/build/
+android/app/build/
+android/local.properties
+android/.idea/
+*.iml
+
+# Android signing — never commit
+android/keystore.properties
+*.jks
+*.keystore
